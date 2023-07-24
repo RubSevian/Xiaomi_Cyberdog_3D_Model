@@ -33,23 +33,23 @@ Cyberdog_new_version_controller:
     type: effort_controllers/JointPositionController
     joint: Revolute 34
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 35_position_controller:
-    type: effort_controllers/JointPositionController
-    joint: Revolute 35
-    pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 36_position_controller:
-    type: effort_controllers/JointPositionController
-    joint: Revolute 36
-    pid: {p: 100.0, i: 0.01, d: 10.0}
   Revolute 37_position_controller:
     type: effort_controllers/JointPositionController
     joint: Revolute 37
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 40_position_controller:
+  Revolute 42_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 40
+    joint: Revolute 42
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 41_position_controller:
+  Revolute 43_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 41
+    joint: Revolute 43
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolute 44_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolute 44
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Revolute 45_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Revolute 45
     pid: {p: 100.0, i: 0.01, d: 10.0}

@@ -6,9 +6,9 @@
 <xacro:include filename="$(find Cyberdog_new_version_description)/urdf/Cyberdog_new_version.gazebo" />
 <link name="base_link">
   <inertial>
-    <origin xyz="-0.005983169773680572 -0.0013186870120787198 0.3913121242716751" rpy="0 0 0"/>
-    <mass value="79.15692100229101"/>
-    <inertia ixx="0.481068" iyy="1.947481" izz="2.15732" ixy="-0.000886" iyz="-0.000126" ixz="-0.078421"/>
+    <origin xyz="-0.006085364526447137 -0.0013192736274497407 0.3912794723646684" rpy="0 0 0"/>
+    <mass value="79.901474415363"/>
+    <inertia ixx="0.481497" iyy="1.948657" izz="2.158894" ixy="-0.000887" iyz="-0.000127" ixz="-0.078451"/>
   </inertial>
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -27,19 +27,19 @@
 
 <link name="foot2_br_1">
   <inertial>
-    <origin xyz="0.07006520870175942 3.644458188567512e-07 -0.0950206350944762" rpy="0 0 0"/>
+    <origin xyz="0.07006520870174893 1.4227437647451602e-07 -0.09502063578021544" rpy="0 0 0"/>
     <mass value="0.7095711315921492"/>
     <inertia ixx="0.002276" iyy="0.003811" izz="0.001577" ixy="0.0" iyz="-0.0" ixz="0.001844"/>
   </inertial>
   <visual>
-    <origin xyz="0.501914 -0.146118 -0.251186" rpy="0 0 0"/>
+    <origin xyz="0.501914 -0.148086 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot2_br_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.501914 -0.146118 -0.251186" rpy="0 0 0"/>
+    <origin xyz="0.501914 -0.148086 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot2_br_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -48,19 +48,19 @@
 
 <link name="foot1_fl_1">
   <inertial>
-    <origin xyz="0.07006522133920697 4.7148385781681235e-07 -0.09501887615986912" rpy="0 0 0"/>
+    <origin xyz="0.07006522133920257 1.377833254434524e-07 -0.09501970080479138" rpy="0 0 0"/>
     <mass value="0.7095720022612411"/>
     <inertia ixx="0.002277" iyy="0.003812" izz="0.001577" ixy="0.0" iyz="-0.0" ixz="0.001844"/>
   </inertial>
   <visual>
-    <origin xyz="-0.008786 -0.145932 -0.254438" rpy="0 0 0"/>
+    <origin xyz="-0.008786 -0.148086 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot1_fl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.008786 -0.145932 -0.254438" rpy="0 0 0"/>
+    <origin xyz="-0.008786 -0.148086 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot1_fl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -69,19 +69,19 @@
 
 <link name="foot2_br_2">
   <inertial>
-    <origin xyz="0.07006520870131583 3.644458205775969e-07 -0.09502063641320688" rpy="0 0 0"/>
+    <origin xyz="0.07006520870131377 -4.153793341232781e-07 -0.09502063578021547" rpy="0 0 0"/>
     <mass value="0.7095711315921492"/>
     <inertia ixx="0.002276" iyy="0.003811" izz="0.001577" ixy="0.0" iyz="-0.0" ixz="0.001844"/>
   </inertial>
   <visual>
-    <origin xyz="0.501914 0.148882 -0.251186" rpy="0 0 0"/>
+    <origin xyz="0.501914 0.150849 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot2_br_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.501914 0.148882 -0.251186" rpy="0 0 0"/>
+    <origin xyz="0.501914 0.150849 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot2_br_2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -90,19 +90,19 @@
 
 <link name="foot1_fr_1">
   <inertial>
-    <origin xyz="0.0700651623874154 4.7524155577516325e-07 -0.09502020850108295" rpy="0 0 0"/>
+    <origin xyz="0.07006516238741908 -4.161127108714968e-07 -0.09502103314351346" rpy="0 0 0"/>
     <mass value="0.7095709358424983"/>
     <inertia ixx="0.002276" iyy="0.003811" izz="0.001577" ixy="0.0" iyz="-0.0" ixz="0.001844"/>
   </inertial>
   <visual>
-    <origin xyz="-0.008786 0.149068 -0.254438" rpy="0 0 0"/>
+    <origin xyz="-0.008786 0.150849 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot1_fr_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.008786 0.149068 -0.254438" rpy="0 0 0"/>
+    <origin xyz="-0.008786 0.150849 -0.251186" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/foot1_fr_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -111,19 +111,19 @@
 
 <link name="leg1_bl_1">
   <inertial>
-    <origin xyz="-0.04327621629022177 0.020265222652791487 -0.025756193520784176" rpy="0 0 0"/>
+    <origin xyz="-0.04327621629023265 0.02026500137913348 -0.02575619420770553" rpy="0 0 0"/>
     <mass value="5.623670463448883"/>
     <inertia ixx="0.009701" iyy="0.026697" izz="0.0184" ixy="-9e-06" iyz="-1.1e-05" ixz="-0.008656"/>
   </inertial>
   <visual>
-    <origin xyz="0.315442 -0.126118 -0.382754" rpy="0 0 0"/>
+    <origin xyz="0.315442 -0.128086 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_bl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.315442 -0.126118 -0.382754" rpy="0 0 0"/>
+    <origin xyz="0.315442 -0.128086 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_bl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -132,19 +132,19 @@
 
 <link name="bol2_r_1">
   <inertial>
-    <origin xyz="3.324335295928904e-07 3.572227312287346e-07 -0.0099739359106054" rpy="0 0 0"/>
+    <origin xyz="3.3243352715039975e-07 -4.2306274966597e-07 -0.009973935277613359" rpy="0 0 0"/>
     <mass value="0.15181620834766513"/>
     <inertia ixx="1.7e-05" iyy="1.7e-05" izz="2.1e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.345101 0.148882 -0.063164" rpy="0 0 0"/>
+    <origin xyz="0.345101 0.150849 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol2_r_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.345101 0.148882 -0.063164" rpy="0 0 0"/>
+    <origin xyz="0.345101 0.150849 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol2_r_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -153,19 +153,19 @@
 
 <link name="bol2_l__1">
   <inertial>
-    <origin xyz="3.3243397473681213e-07 3.572227285919549e-07 -0.009973934591875497" rpy="0 0 0"/>
+    <origin xyz="3.3243396413418225e-07 1.3459096870338527e-07 -0.009973935277615933" rpy="0 0 0"/>
     <mass value="0.1518162083476651"/>
     <inertia ixx="1.7e-05" iyy="1.7e-05" izz="2.1e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.345101 -0.146118 -0.063164" rpy="0 0 0"/>
+    <origin xyz="0.345101 -0.148086 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol2_l__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.345101 -0.146118 -0.063164" rpy="0 0 0"/>
+    <origin xyz="0.345101 -0.148086 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol2_l__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -174,19 +174,19 @@
 
 <link name="bol1_r_1">
   <inertial>
-    <origin xyz="3.3275021080192424e-07 4.682072707595797e-07 -0.009974111339621956" rpy="0 0 0"/>
+    <origin xyz="3.327502144656602e-07 -4.2314786530273096e-07 -0.009973935982052443" rpy="0 0 0"/>
     <mass value="0.1518162083476651"/>
     <inertia ixx="1.7e-05" iyy="1.7e-05" izz="2.1e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.165599 0.149068 -0.066417" rpy="0 0 0"/>
+    <origin xyz="-0.165599 0.150849 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol1_r_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.165599 0.149068 -0.066417" rpy="0 0 0"/>
+    <origin xyz="-0.165599 0.150849 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol1_r_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -195,19 +195,19 @@
 
 <link name="bol1_l_1">
   <inertial>
-    <origin xyz="3.3275563185442003e-07 4.6820506760525404e-07 -0.009974111337602273" rpy="0 0 0"/>
+    <origin xyz="3.3275562749679466e-07 1.3450366534439873e-07 -0.009973935982524516" rpy="0 0 0"/>
     <mass value="0.15181620834766513"/>
     <inertia ixx="1.7e-05" iyy="1.7e-05" izz="2.1e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.165599 -0.145932 -0.066417" rpy="0 0 0"/>
+    <origin xyz="-0.165599 -0.148086 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol1_l_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.165599 -0.145932 -0.066417" rpy="0 0 0"/>
+    <origin xyz="-0.165599 -0.148086 -0.063164" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/bol1_l_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -216,19 +216,19 @@
 
 <link name="leg1_fr_1">
   <inertial>
-    <origin xyz="-0.043276216372418436 -0.01973466501458032 -0.02575636937869935" rpy="0 0 0"/>
+    <origin xyz="-0.04327621637241477 -0.019735556367151214 -0.025756194021132106" rpy="0 0 0"/>
     <mass value="5.623670463448882"/>
     <inertia ixx="0.009701" iyy="0.026697" izz="0.0184" ixy="-9e-06" iyz="-1.1e-05" ixz="-0.008656"/>
   </inertial>
   <visual>
-    <origin xyz="-0.195258 0.129068 -0.386007" rpy="0 0 0"/>
+    <origin xyz="-0.195258 0.130849 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_fr_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.195258 0.129068 -0.386007" rpy="0 0 0"/>
+    <origin xyz="-0.195258 0.130849 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_fr_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -237,40 +237,61 @@
 
 <link name="leg1_fl_1">
   <inertial>
-    <origin xyz="-0.04327621636698292 0.020265334983866068 -0.025756369376678745" rpy="0 0 0"/>
+    <origin xyz="-0.04327621636698725 0.020265001285029977 -0.025756194021603285" rpy="0 0 0"/>
     <mass value="5.62367046344888"/>
     <inertia ixx="0.009701" iyy="0.026697" izz="0.0184" ixy="-9e-06" iyz="-1.1e-05" ixz="-0.008656"/>
   </inertial>
   <visual>
-    <origin xyz="-0.195258 -0.125932 -0.386007" rpy="0 0 0"/>
+    <origin xyz="-0.195258 -0.128086 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_fl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.195258 -0.125932 -0.386007" rpy="0 0 0"/>
+    <origin xyz="-0.195258 -0.128086 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_fl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="motor2_bl_back_1">
+<link name="leg1_br_1">
   <inertial>
-    <origin xyz="-0.06966547511359245 0.07519623218363408 1.2808463395463932e-07" rpy="0 0 0"/>
-    <mass value="3.9545724305182866"/>
-    <inertia ixx="0.005455" iyy="0.00436" izz="0.006263" ixy="0.000503" iyz="-0.0" ixz="0.0"/>
+    <origin xyz="-0.0432762162906693 -0.019735556274586313 -0.025756194207707694" rpy="0 0 0"/>
+    <mass value="5.623670463448881"/>
+    <inertia ixx="0.009701" iyy="0.026697" izz="0.0184" ixy="-9e-06" iyz="-1.1e-05" ixz="-0.008656"/>
   </inertial>
   <visual>
-    <origin xyz="0.240942 0.001382 -0.382754" rpy="0 0 0"/>
+    <origin xyz="0.315442 0.130849 -0.382754" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_br_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.315442 0.130849 -0.382754" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_br_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor2_bl_back_1">
+  <inertial>
+    <origin xyz="-0.0696654751135935 0.025196011025119112 1.2772211338551998e-07" rpy="0 0 0"/>
+    <mass value="3.9545724305182866"/>
+    <inertia ixx="0.005455" iyy="0.00436" izz="0.006263" ixy="0.000503" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.240942 -0.050586 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/motor2_bl_back_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.240942 0.001382 -0.382754" rpy="0 0 0"/>
+    <origin xyz="0.240942 -0.050586 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/motor2_bl_back_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -279,84 +300,63 @@
 
 <link name="motor1_br_back__1">
   <inertial>
-    <origin xyz="-0.06966547511381294 -0.07519552128081389 1.2741234328705886e-07" rpy="0 0 0"/>
+    <origin xyz="-0.06966547511381554 -0.02519630009305559 1.2772211382960919e-07" rpy="0 0 0"/>
     <mass value="3.954572430518811"/>
     <inertia ixx="0.005455" iyy="0.00436" izz="0.006263" ixy="-0.000503" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.240942 0.001382 -0.382754" rpy="0 0 0"/>
+    <origin xyz="0.240942 0.053349 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_br_back__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.240942 0.001382 -0.382754" rpy="0 0 0"/>
+    <origin xyz="0.240942 0.053349 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_br_back__1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="leg1_br_1">
-  <inertial>
-    <origin xyz="-0.04327621629066747 -0.019734777347206384 -0.025756194839514357" rpy="0 0 0"/>
-    <mass value="5.623670463448881"/>
-    <inertia ixx="0.009701" iyy="0.026697" izz="0.0184" ixy="-9e-06" iyz="-1.1e-05" ixz="-0.008656"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.315442 0.128882 -0.382754" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_br_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.315442 0.128882 -0.382754" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://Cyberdog_new_version_description/meshes/leg1_br_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="motor1_bl_1">
-  <inertial>
-    <origin xyz="0.07105512711326509 0.07516263480741354 -0.019999325403253276" rpy="0 0 0"/>
-    <mass value="3.9597418607827"/>
-    <inertia ixx="0.005468" iyy="0.004405" izz="0.00631" ixy="-0.000514" iyz="0.0" ixz="-0.0"/>
-  </inertial>
-  <visual>
-    <origin xyz="-0.119258 0.001568 -0.406007" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_bl_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="-0.119258 0.001568 -0.406007" rpy="0 0 0"/>
-    <geometry>
-      <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_bl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
 <link name="motor1_br_1">
   <inertial>
-    <origin xyz="0.07105512711142445 -0.07516169901405914 -0.019999325404139845" rpy="0 0 0"/>
+    <origin xyz="0.07105512711142814 -0.025162590366412517 8.499528188488092e-07" rpy="0 0 0"/>
     <mass value="3.9597418606976182"/>
     <inertia ixx="0.005468" iyy="0.004405" izz="0.00631" ixy="0.000514" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.119258 0.001568 -0.406007" rpy="0 0 0"/>
+    <origin xyz="-0.119258 0.053349 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_br_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.119258 0.001568 -0.406007" rpy="0 0 0"/>
+    <origin xyz="-0.119258 0.053349 -0.382754" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_br_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="motor1_bl_1">
+  <inertial>
+    <origin xyz="0.07105512711326073 0.025162301108794964 8.499524354887988e-07" rpy="0 0 0"/>
+    <mass value="3.9597418607827"/>
+    <inertia ixx="0.005468" iyy="0.004405" izz="0.00631" ixy="-0.000514" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.119258 -0.050586 -0.382754" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_bl_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.119258 -0.050586 -0.382754" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Cyberdog_new_version_description/meshes/motor1_bl_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -369,10 +369,10 @@
 </joint>
 
 <joint name="Revolute 6" type="continuous">
-  <origin xyz="-0.186472 0.02 -0.131569" rpy="0 0 0"/>
+  <origin xyz="-0.186472 0.02 -0.131568" rpy="0 0 0"/>
   <parent link="leg1_fl_1"/>
   <child link="foot1_fl_1"/>
-  <axis xyz="-0.0 -1.0 -0.0"/>
+  <axis xyz="-0.0 -1.0 0.0"/>
 </joint>
 
 <joint name="Revolute 7" type="continuous">
@@ -383,17 +383,17 @@
 </joint>
 
 <joint name="Revolute 8" type="continuous">
-  <origin xyz="-0.186472 -0.02 -0.131569" rpy="0 0 0"/>
+  <origin xyz="-0.186472 -0.02 -0.131568" rpy="0 0 0"/>
   <parent link="leg1_fr_1"/>
   <child link="foot1_fr_1"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
 
 <joint name="Revolute 9" type="continuous">
-  <origin xyz="-0.0745 0.1275 0.0" rpy="0 0 0"/>
+  <origin xyz="-0.0745 0.0775 0.0" rpy="0 0 0"/>
   <parent link="motor2_bl_back_1"/>
   <child link="leg1_bl_1"/>
-  <axis xyz="0.0 1.0 0.0"/>
+  <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
 <joint name="Rigid 29" type="fixed">
@@ -409,63 +409,63 @@
 </joint>
 
 <joint name="Rigid 31" type="fixed">
-  <origin xyz="0.156813 0.0 -0.188021" rpy="0 0 0"/>
+  <origin xyz="0.156813 0.0 -0.188022" rpy="0 0 0"/>
   <parent link="foot1_fr_1"/>
   <child link="bol1_r_1"/>
 </joint>
 
 <joint name="Rigid 32" type="fixed">
-  <origin xyz="0.156813 0.0 -0.188021" rpy="0 0 0"/>
+  <origin xyz="0.156813 0.0 -0.188022" rpy="0 0 0"/>
   <parent link="foot1_fl_1"/>
   <child link="bol1_l_1"/>
 </joint>
 
 <joint name="Revolute 33" type="continuous">
-  <origin xyz="0.076 -0.1275 -0.02" rpy="0 0 0"/>
+  <origin xyz="0.076 -0.0775 0.0" rpy="0 0 0"/>
   <parent link="motor1_br_1"/>
   <child link="leg1_fr_1"/>
   <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 34" type="continuous">
-  <origin xyz="0.076 0.1275 -0.02" rpy="0 0 0"/>
+  <origin xyz="0.076 0.0775 0.0" rpy="0 0 0"/>
   <parent link="motor1_bl_1"/>
   <child link="leg1_fl_1"/>
-  <axis xyz="0.0 1.0 0.0"/>
-</joint>
-
-<joint name="Revolute 35" type="continuous">
-  <origin xyz="-0.240942 -0.001382 0.382754" rpy="0 0 0"/>
-  <parent link="base_link"/>
-  <child link="motor2_bl_back_1"/>
-  <axis xyz="-1.0 0.0 -0.0"/>
-</joint>
-
-<joint name="Revolute 36" type="continuous">
-  <origin xyz="-0.240942 -0.001382 0.382754" rpy="0 0 0"/>
-  <parent link="base_link"/>
-  <child link="motor1_br_back__1"/>
-  <axis xyz="-1.0 0.0 -0.0"/>
+  <axis xyz="0.0 1.0 -0.0"/>
 </joint>
 
 <joint name="Revolute 37" type="continuous">
-  <origin xyz="-0.0745 -0.1275 0.0" rpy="0 0 0"/>
+  <origin xyz="-0.0745 -0.0775 0.0" rpy="0 0 0"/>
   <parent link="motor1_br_back__1"/>
   <child link="leg1_br_1"/>
   <axis xyz="-0.0 -1.0 -0.0"/>
 </joint>
 
-<joint name="Revolute 40" type="continuous">
-  <origin xyz="0.119258 -0.001568 0.406007" rpy="0 0 0"/>
+<joint name="Revolute 42" type="continuous">
+  <origin xyz="-0.240942 0.050586 0.382754" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="motor1_bl_1"/>
+  <child link="motor2_bl_back_1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 43" type="continuous">
+  <origin xyz="-0.240942 -0.053349 0.382754" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="motor1_br_back__1"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+</joint>
+
+<joint name="Revolute 44" type="continuous">
+  <origin xyz="0.119258 -0.053349 0.382754" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="motor1_br_1"/>
   <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
-<joint name="Revolute 41" type="continuous">
-  <origin xyz="0.119258 -0.001568 0.406007" rpy="0 0 0"/>
+<joint name="Revolute 45" type="continuous">
+  <origin xyz="0.119258 0.050586 0.382754" rpy="0 0 0"/>
   <parent link="base_link"/>
-  <child link="motor1_br_1"/>
+  <child link="motor1_bl_1"/>
   <axis xyz="1.0 0.0 0.0"/>
 </joint>
 
