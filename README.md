@@ -33,6 +33,7 @@ To visualize in rviz, enter this command :
 ```shell
 roslaunch urdf display.launch
 ```
+The cyberdog_3d_model_fusion 360 folder contains a robot model made in Fusion 360
 
 Visualization in rviz
 
