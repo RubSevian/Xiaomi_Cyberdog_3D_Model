@@ -29,6 +29,11 @@ And assemble the package :
 ```shell
 catkin_make
 ```
+Go to the folder
+```shell
+cd ~/catkin_ws/src/urdf/launch
+```
+
 To visualize in rviz, enter this command :
 ```shell
 roslaunch urdf display.launch
@@ -37,6 +42,6 @@ The cyberdog_3d_model_fusion 360 folder contains a robot model made in Fusion 36
 
 Visualization in rviz
 
-![Screenshot from 2023-07-24 20-29-39](https://github.com/RubSevian/Xiaomi_Cyberdog_3D_Model/assets/109359327/1325be60-d451-4380-9493-15c17f34e0e2)
+![Screenshot from 2023-08-26 16-04-38](https://github.com/RubSevian/Xiaomi_Cyberdog_3D_Model/assets/109359327/38be2e76-bcbf-439f-b771-1822ad968be5)
 
-![Screenshot from 2023-07-24 20-27-45](https://github.com/RubSevian/Xiaomi_Cyberdog_3D_Model/assets/109359327/3154c2cf-274a-4cbe-9b7b-638ecd179921)
+![Screenshot from 2023-08-26 16-05-50](https://github.com/RubSevian/Xiaomi_Cyberdog_3D_Model/assets/109359327/3e691d3e-ee17-4eaf-82ac-10f92900b059)
