@@ -1,7 +1,7 @@
 <launch>
 
 <rosparam file="$(find Cyberdog_new_version_description)/launch/controller.yaml" command="load"/>
-<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="Cyberdog_new_version" args="Revolute 5_position_controller Revolute 6_position_controller Revolute 7_position_controller Revolute 8_position_controller Revolute 9_position_controller Revolute 33_position_controller Revolute 34_position_controller Revolute 37_position_controller Revolute 42_position_controller Revolute 43_position_controller Revolute 44_position_controller Revolute 45_position_controller joint_state_controller "/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="Cyberdog_new_version" args="body1_position_controller body0_position_controller bone0_position_controller bone1_position_controller leg0_position_controller leg1_position_controller body3_position_controller body2_position_controller leg3_position_controller bone3_position_controller leg2_position_controller bone2_position_controller joint_state_controller "/>
 <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
   <remap from="/joint_states" to="/Cyberdog_new_version/joint_states"/>
 </node>

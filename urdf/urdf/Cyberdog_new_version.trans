@@ -1,133 +1,133 @@
 <?xml version="1.0" ?>
 <robot name="Cyberdog_new_version" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<transmission name="Revolute 5_tran">
+<transmission name="body1_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 5">
+  <joint name="body1">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 5_actr">
+  <actuator name="body1_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 6_tran">
+<transmission name="body0_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 6">
+  <joint name="body0">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 6_actr">
+  <actuator name="body0_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 7_tran">
+<transmission name="bone0_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 7">
+  <joint name="bone0">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 7_actr">
+  <actuator name="bone0_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 8_tran">
+<transmission name="bone1_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 8">
+  <joint name="bone1">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 8_actr">
+  <actuator name="bone1_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 9_tran">
+<transmission name="leg0_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 9">
+  <joint name="leg0">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 9_actr">
+  <actuator name="leg0_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 33_tran">
+<transmission name="leg1_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 33">
+  <joint name="leg1">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 33_actr">
+  <actuator name="leg1_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 34_tran">
+<transmission name="body3_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 34">
+  <joint name="body3">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 34_actr">
+  <actuator name="body3_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 37_tran">
+<transmission name="body2_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 37">
+  <joint name="body2">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 37_actr">
+  <actuator name="body2_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 42_tran">
+<transmission name="leg3_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 42">
+  <joint name="leg3">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 42_actr">
+  <actuator name="leg3_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 43_tran">
+<transmission name="bone3_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 43">
+  <joint name="bone3">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 43_actr">
+  <actuator name="bone3_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 44_tran">
+<transmission name="leg2_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 44">
+  <joint name="leg2">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 44_actr">
+  <actuator name="leg2_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="Revolute 45_tran">
+<transmission name="bone2_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Revolute 45">
+  <joint name="bone2">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Revolute 45_actr">
+  <actuator name="bone2_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>

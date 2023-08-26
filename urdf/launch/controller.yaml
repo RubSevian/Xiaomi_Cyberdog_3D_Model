@@ -5,51 +5,51 @@ Cyberdog_new_version_controller:
     publish_rate: 50
 
   # Position Controllers --------------------------------------
-  Revolute 5_position_controller:
+  body1_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 5
+    joint: body1
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 6_position_controller:
+  body0_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 6
+    joint: body0
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 7_position_controller:
+  bone0_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 7
+    joint: bone0
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 8_position_controller:
+  bone1_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 8
+    joint: bone1
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 9_position_controller:
+  leg0_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 9
+    joint: leg0
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 33_position_controller:
+  leg1_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 33
+    joint: leg1
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 34_position_controller:
+  body3_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 34
+    joint: body3
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 37_position_controller:
+  body2_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 37
+    joint: body2
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 42_position_controller:
+  leg3_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 42
+    joint: leg3
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 43_position_controller:
+  bone3_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 43
+    joint: bone3
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 44_position_controller:
+  leg2_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 44
+    joint: leg2
     pid: {p: 100.0, i: 0.01, d: 10.0}
-  Revolute 45_position_controller:
+  bone2_position_controller:
     type: effort_controllers/JointPositionController
-    joint: Revolute 45
+    joint: bone2
     pid: {p: 100.0, i: 0.01, d: 10.0}
